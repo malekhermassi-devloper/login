@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.page-content{
+    overflow: hidden;
+}
+.desc{
+    float: left;
+    width: 50%;
+    
+
+}
+.desc-title{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    margin: 70px 5% 30px 5%;
+    color: #333;
+}
+.desc-caption{
+    text-transform: capitalize;
+    color: rgb(148, 148, 148);
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8em;
+    margin: 0 5% 20px 5%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.desc-image{
+    width: 80%;
+    margin: auto;
+    
+}
+.desc-img{
+    width: 100%;
+    text-align: center;
+}
+.form{
+    float: left;
+    width: 50%;
+    
+    
+}
+.form-title{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    margin: 75px 5% 20px 5%;
+    color: #333;    
+}
+.form-caption{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(148, 148, 148);
+    margin: 0 5% 20px 5%;
+}
+form{
+    margin: 10px 5% 20px 5%;
+}
+.form-input-title{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+.form-input{
+    overflow: hidden;
+    border: #ddd 1px solid;
+    width: 80%;
+    height: 45px;
+    position: relative;
+
+}
+.input-email{
+    outline: none;
+    border : none;
+    float: left;
+    text-transform: capitalize;
+    padding: 14px 10px 14px 40px;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+
+}
+i.envelope{
+    position: absolute;
+    float: left;
+    color: #01cd74;
+    top: 14px;
+    left: 10px;
+    font-size: large;
+}
+.form-input-title.mg{
+    margin: 20px 0 10px 0;
+}
+.checkbox{
+    position: relative;
+}
+.form-input-checkbox{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+.check-name{
+    padding-left:35px ;
+    margin-top: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+.form-button{
+    border: none;
+    outline: none;
+    background: none;
+    margin: 15px 5%;
+    border: transparent;
+    background-color: #ff4040;
+    padding: 12px 40px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    transition: border 0.1s;
+}
+.form-button:active{
+    border: solid 2px #000;
+    border-radius: 4px;
+}
+.form-descreption{
+    color:  rgb(148, 148, 148);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin:15px 5% ;
+    text-transform: capitalize;
+
+
+}
+a{
+    
+    color: #ff4040;
+}
